@@ -1,0 +1,53 @@
+#cardhome-container{
+    width: 20em;
+    background-color: #e6e6e6 ;
+    margin: 4em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.429);
+}
+
+#cardhome-container a{
+    color: black;
+    text-decoration: none;
+}
+
+#cardhome-icon{
+    font-size: 4em;
+    color: white;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#cardhome-texto{
+    display: flex;
+    flex-direction: column;
+    min-height: 10em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#cardhome-texto h3{
+    font-size: 1.5em;
+    font-family: conneqtRegular,sans-serif;
+    font-weight: 700;
+    color: #2a2a2a;
+}
+
+#cardhome-texto p{
+    font-family: sans-serif;
+    padding: 1em;
+    color:#636363 ;
+}
+
+@media(max-width:768px){
+    #cardhome-container{
+        margin: 2em;
+    }
+   
+}

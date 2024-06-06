@@ -1,0 +1,82 @@
+/* Estilos básicos para o footer */
+.footer{
+    background-color: black;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    margin: auto; 
+    max-width: 100%; 
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.footer-links nav{
+    margin: 0 0em;
+}
+.footer-links nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.footer-links nav ul li {
+    margin-right: 20px;
+}
+
+.footer-contact ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-social ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.footer-social ul li {
+    margin-right: 10px;
+}
+
+#copy{
+color: white;
+text-align: center;
+padding: 1em;
+}
+
+/* Estilos para dispositivos menores */
+@media(max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links nav ul {
+        flex-direction: row;
+    }
+
+    .footer-links nav ul li {
+        margin-bottom: 20px;
+    }
+
+    .footer-social ul {
+        justify-content: center;
+    }
+
+    .footer-social ul li {
+        margin-right: 0;
+    }
+}

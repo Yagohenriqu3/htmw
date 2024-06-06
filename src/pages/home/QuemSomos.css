@@ -1,0 +1,85 @@
+#quemsomos-container{
+    width: 100%;
+    min-height: 32em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 5em 0 0 0;
+    background-color: #ECECED;
+    
+}
+
+#quemsomos-container2{
+    height: 30em;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.522);
+}
+
+.quemsomos-conteudo{
+    height: 100%;
+    display:flex;
+    align-items: center;
+}
+
+
+#quemsomos-container2 img{
+    height: 100%;
+   
+}
+
+#quemsomos-paragrafo p{
+    color: #e6e6e6;
+    font-family: conneqtRegular, sans-serif;
+    padding: 2em;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left,#003067,#002855,#001c3d
+    ) ;
+    text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.404);
+
+}
+
+#quemsomos-paragrafo p h2{
+    width: 2em;
+    width: 100%;
+    padding: 2em 0;
+}
+
+@media(max-width: 768px){
+    #quemsomos-container{
+        padding: 3em 0 0 0;
+        
+    }
+    
+    #quemsomos-container2{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    #quemsomos-container2 img{
+        width: 100%;
+       
+    }
+    
+    #quemsomos-paragrafo p{
+        padding: 1.5em;
+        font-size: 1.1em;
+        text-align: center;
+        
+    }
+    
+    #quemsomos-paragrafo p h2{
+        width: 100%;
+        padding: 0 0 1em 0 ;
+    }
+}

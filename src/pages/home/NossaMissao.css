@@ -1,0 +1,33 @@
+#nossamissao-container{
+    background-image: url('../../assets/home/img33.jpg');
+    width: 100%;
+    min-height: 95vh;
+    background-color: #c2c2c2;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+#nossamissao-container p{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 2em;
+    font-family: conneqtRegular;
+    color: #535353;
+    text-shadow: 1px 1px 2px #535353b2;
+}
+
+@media (max-width: 768px){
+    
+    #nossamissao-container p{
+        text-align: center;
+        width: 90%;
+        font-size: 1.3em;
+    }
+}

@@ -1,0 +1,13 @@
+#servicosprodutos-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top ,#002144,#003c7c,#00366f) ;
+}
+
+@media (max-width: 768px){
+    #servicosprodutos-container{
+        flex-direction: column;
+      
+    }
+}
